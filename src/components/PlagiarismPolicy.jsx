@@ -13,7 +13,7 @@ export default function PlagiarismPolicy() {
           </p>
         </div>
 
-        <div className="grid-2" style={{gap:'32px', marginBottom:'32px'}}>
+        <div className="" style={{gap:'32px', marginBottom:'32px'}}>
           <div className="card" style={{padding:'32px'}}>
             <h3 style={{fontSize:'1.3rem', marginBottom:'16px'}}>Detection & Screening</h3>
             <p style={{marginBottom:'14px'}}>
@@ -33,7 +33,7 @@ export default function PlagiarismPolicy() {
             </p>
           </div>
 
-          <div className="card" style={{padding:'32px'}}>
+          {/* <div className="card" style={{padding:'32px'}}>
             <h3 style={{fontSize:'1.3rem', marginBottom:'16px'}}>Consequences of Violations</h3>
             <ul className="styled-list" style={{marginBottom:'20px'}}>
               <li>Papers exceeding the similarity threshold will be <strong>immediately rejected</strong> without peer review</li>
@@ -51,7 +51,7 @@ export default function PlagiarismPolicy() {
                 this in the acknowledgements section. Full AI-generated manuscripts will not be accepted.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="card" style={{padding:'32px'}}>
