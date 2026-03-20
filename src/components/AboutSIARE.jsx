@@ -16,23 +16,26 @@ export default function AboutSIARE() {
         <div className="section-header">
           <span className="section-label">🌿 Conference Series</span>
           <h2>About the SIARE Conference Series</h2>
-          <p>
+          {/* <p>
             The Society for Interdisciplinary Academic Research & Exchange (SIARE) has been
             organizing high-impact international conferences since 2008, connecting scholars
             across continents in pursuit of knowledge that matters.
-          </p>
+          </p> */}
         </div>
 
         <div className="siare-grid">
           <div>
-            <p style={{marginBottom:'16px'}}>
+            <p style={{textAlign:'justify'}}>
+              The Society for Interdisciplinary Academic Research & Exchange (SIARE) has been
+            organizing high-impact international conferences since 2008, connecting scholars
+            across continents in pursuit of knowledge that matters.
               SIARE conferences are renowned for their rigorous peer-review processes, distinguished keynote
               speakers from leading global institutions, and commitment to translating academic insight into
               actionable policy. Each edition follows a carefully structured annual cycle — from the June
               opening of submissions through the March conference convening — designed to maximize
               scholarly quality and participant engagement.
             </p>
-            <p style={{marginBottom:'16px'}}>
+            <p style={{}}>
               With a track record spanning over 60 successful conferences across 28 countries, SIARE
               has built an unparalleled network of researchers, educators, NGOs, governmental bodies,
               and industry leaders. Our publications are indexed in SCOPUS, Web of Science, and DOAJ,

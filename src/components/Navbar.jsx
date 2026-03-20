@@ -4,10 +4,13 @@ import './Navbar.css';
 const navLinks = [
   { label: 'About', href: '#about-siare' },
   { label: 'Conference', href: '#about-conference' },
-  { label: 'Tracks', href: '#tracks' },
+  { label: 'Call For Papers', href: '#tracks' },
   { label: 'Submission', href: '#submission' },
   { label: 'Registration', href: '#registration' },
   { label: 'Dates', href: '#dates' },
+  { label: 'Committee', href: '#committee' },
+  { label: 'Contact', href: '#contact' },
+
 ];
 
 export default function Navbar({ scrolled, onSubmit }) {
@@ -25,7 +28,7 @@ export default function Navbar({ scrolled, onSubmit }) {
           <span className="brand-icon">🌿</span>
           <div>
             <span className="brand-main">ICCBGSR</span>
-            <span className="brand-sub">2027</span>
+            <span className="brand-sub">March 2027</span>
           </div>
         </a>
 
@@ -36,9 +39,9 @@ export default function Navbar({ scrolled, onSubmit }) {
               {link.label}
             </a>
           ))}
-          <button className="btn btn-primary nav-cta" onClick={() => { setMenuOpen(false); onSubmit(); }}>
+          {/* <button className="btn btn-primary nav-cta" onClick={() => { setMenuOpen(false); onSubmit(); }}>
             Submit Paper
-          </button>
+          </button> */}
         </div>
 
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">

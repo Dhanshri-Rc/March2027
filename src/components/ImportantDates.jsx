@@ -5,14 +5,14 @@ const dates = [
   { date: 'August 15, 2026', label: 'Abstract Submission Deadline', icon: '📋', status: 'past', cat: 'submission' },
   { date: 'September 5, 2026', label: 'Abstract Acceptance Notification', icon: '✅', status: 'past', cat: 'review' },
   { date: 'October 31, 2026', label: 'Early Bird Registration Deadline', icon: '🎫', status: 'upcoming', cat: 'registration', highlight: true },
-  { date: 'November 30, 2026', label: 'Full Paper Submission Deadline', icon: '📤', status: 'upcoming', cat: 'submission' },
-  { date: 'December 15, 2026', label: 'Extended Full Paper Deadline', icon: '⏰', status: 'upcoming', cat: 'submission', highlight: true },
-  { date: 'January 10, 2027', label: 'Paper Acceptance Notification', icon: '📧', status: 'upcoming', cat: 'review' },
-  { date: 'January 15, 2027', label: 'Regular Registration Deadline', icon: '🔒', status: 'upcoming', cat: 'registration' },
-  { date: 'February 1, 2027', label: 'Camera-Ready Submission', icon: '🖨️', status: 'upcoming', cat: 'submission' },
-  { date: 'February 15, 2027', label: 'Final Registration Deadline', icon: '🚫', status: 'upcoming', cat: 'registration' },
-  { date: 'February 28, 2027', label: 'Conference Programme Published', icon: '📅', status: 'upcoming', cat: 'conference' },
-  { date: 'March 2027', label: 'ICCBGSR 2027 Conference', icon: '🎓', status: 'upcoming', cat: 'conference', highlight: true },
+  // { date: 'November 30, 2026', label: 'Full Paper Submission Deadline', icon: '📤', status: 'upcoming', cat: 'submission' },
+  // { date: 'December 15, 2026', label: 'Extended Full Paper Deadline', icon: '⏰', status: 'upcoming', cat: 'submission', highlight: true },
+  // { date: 'January 10, 2027', label: 'Paper Acceptance Notification', icon: '📧', status: 'upcoming', cat: 'review' },
+  // { date: 'January 15, 2027', label: 'Regular Registration Deadline', icon: '🔒', status: 'upcoming', cat: 'registration' },
+  // { date: 'February 1, 2027', label: 'Camera-Ready Submission', icon: '🖨️', status: 'upcoming', cat: 'submission' },
+  // { date: 'February 15, 2027', label: 'Final Registration Deadline', icon: '🚫', status: 'upcoming', cat: 'registration' },
+  // { date: 'February 28, 2027', label: 'Conference Programme Published', icon: '📅', status: 'upcoming', cat: 'conference' },
+  // { date: 'March 2027', label: 'ICCBGSR 2027 Conference', icon: '🎓', status: 'upcoming', cat: 'conference', highlight: true },
 ];
 
 const catColors = {

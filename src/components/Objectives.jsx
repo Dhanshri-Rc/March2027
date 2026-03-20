@@ -50,10 +50,6 @@ export default function Objectives() {
         <div className="section-header">
           <span className="section-label">🎯 Goals</span>
           <h2>Conference Objectives</h2>
-          <p>
-            ICCBGSR 2027 pursues eight core objectives that collectively advance our collective
-            understanding of — and capacity to respond to — the planetary sustainability crisis.
-          </p>
         </div>
 
         <div className="grid-2" style={{gap:'20px'}}>

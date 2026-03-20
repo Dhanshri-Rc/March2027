@@ -35,13 +35,13 @@ export default function SubmissionProcess() {
           ))}
         </div>
 
-        <div style={{marginTop:'40px', background:'var(--ink)', borderRadius:'var(--radius-lg)', padding:'32px 40px', display:'flex', alignItems:'center', justifyContent:'space-between', gap:'24px', flexWrap:'wrap'}}>
+        {/* <div style={{marginTop:'40px', background:'var(--ink)', borderRadius:'var(--radius-lg)', padding:'32px 40px', display:'flex', alignItems:'center', justifyContent:'space-between', gap:'24px', flexWrap:'wrap'}}>
           <div>
             <h3 style={{color:'white', fontSize:'1.5rem', marginBottom:'6px'}}>Ready to submit your research?</h3>
             <p style={{color:'rgba(255,255,255,0.6)', margin:0}}>Submissions are open. Deadline: December 15, 2026.</p>
           </div>
           <a href="#" className="btn btn-gold" style={{whiteSpace:'nowrap'}}>Access Submission Portal →</a>
-        </div>
+        </div> */}
       </div>
 
       <style>{`

@@ -16,34 +16,29 @@ export default function AboutConference() {
         <div className="section-header">
           <span className="section-label">🔬 The Conference</span>
           <h2>About the Conference</h2>
-          <p>
-            A world-class interdisciplinary gathering exploring the scientific, social, economic, and
-            policy dimensions of climate change, biodiversity conservation, and sustainability.
-          </p>
+          {/* <p> */}
+            {/* A world-class interdisciplinary gathering exploring the scientific, social, economic, and
+            policy dimensions of climate change, biodiversity conservation, and sustainability. */}
+          {/* </p> */}
         </div>
 
-        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'56px', alignItems:'start', marginBottom:'56px'}}>
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'56px', alignItems:'start', marginBottom:'56px',textAlign:'justify'}} className="grid-2-custom">
           <div>
-            <p style={{marginBottom:'18px'}}>
+            <p style={{marginBottom:'4px'}}>
               The <strong>International Conference on Climate Change, Biodiversity, and Global
               Sustainability Research (ICCBGSR 2027)</strong> is the flagship annual event of the SIARE
               conference series, bringing together over 500 delegates from more than 40 nations.
               Scheduled for March 2027, the conference serves as a crucible for innovative research
               and interdisciplinary dialogue on the most urgent ecological challenges of our time.
             </p>
-            <p style={{marginBottom:'18px'}}>
+            <p style={{marginBottom:'4px'}}>
               This conference addresses the deeply interconnected crises of anthropogenic climate
               disruption, accelerating biodiversity collapse, and the systemic unsustainability of
               current economic and social paradigms. By fostering dialogue between natural scientists,
               social scientists, economists, engineers, ethicists, and community advocates, ICCBGSR
               generates holistic insights that no single discipline can produce alone.
             </p>
-            <p>
-              Accepted papers will be published in conference proceedings with ISBN, and selected
-              works will be invited for submission to SIARE's partner peer-reviewed journals, offering
-              pathways to SCOPUS-indexed publication. Oral presentations, poster sessions, panel
-              discussions, and workshop formats ensure diverse modes of scholarly exchange.
-            </p>
+           
           </div>
 
           <div style={{display:'flex', flexDirection:'column', gap:'16px'}}>
@@ -60,7 +55,7 @@ export default function AboutConference() {
                 ].map(([icon, k, v]) => (
                   <div key={k} style={{display:'flex', gap:'10px', alignItems:'center'}}>
                     <span>{icon}</span>
-                    <span style={{color:'rgba(255,255,255,0.6)', fontSize:'0.85rem', width:'90px', flexShrink:0}}>{k}</span>
+                    <span style={{color:'rgba(255,255,255,0.6)', fontSize:'0.85rem', width:'95px', flexShrink:0}}>{k}</span>
                     <span style={{color:'white', fontSize:'0.9rem', fontWeight:'500'}}>{v}</span>
                   </div>
                 ))}
