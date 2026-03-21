@@ -14,6 +14,8 @@ import ImportantDates from './components/ImportantDates';
 import SubmitPaperModal from './components/SubmitPaperModal';
 import Footer from './components/Footer';
 import './styles/global.css';
+import Contact from './components/Contact';
+
 
 export default function App() {
   const [submitOpen, setSubmitOpen] = useState(false);
@@ -40,6 +42,7 @@ export default function App() {
         <Registration onSubmit={() => setSubmitOpen(true)} />
         <Publications />
         <ImportantDates onSubmit={() => setSubmitOpen(true)} />
+          <Contact/>
       </main>
       <Footer />
       {submitOpen && <SubmitPaperModal onClose={() => setSubmitOpen(false)} />}
